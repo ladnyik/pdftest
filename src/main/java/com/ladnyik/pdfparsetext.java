@@ -16,7 +16,6 @@ public class pdfparsetext {
 		stripper.setSortByPosition(true);
 		stripper.setStartPage(1);
 		stripper.setEndPage(1);
-		String text = stripper.getText(document);
-		System.out.println(text);
+		String text = stripper.getText(document);		
 	}
 }
